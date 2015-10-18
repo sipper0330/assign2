@@ -180,8 +180,9 @@ void draw(){
     
     if(mouseX>width/3 && mouseY>300 && mouseX<width*2/3 && mouseY<343){
     image(end1,0,0);
-    if(mousePressed){
     hp=hp-(MaxHp-9)*4/5;
+    if(mousePressed){
+    enemyX=0;
     gameState=GAME_PLAYING;
     treasureX=floor(random(10,600));
     treasureY=floor(random(10,308));
