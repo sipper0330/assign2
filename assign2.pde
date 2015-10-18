@@ -180,7 +180,7 @@ void draw(){
     
     if(mouseX>width/3 && mouseY>300 && mouseX<width*2/3 && mouseY<343){
     image(end1,0,0);
-    hp=hp-(MaxHp-9)*4/5;
+    hp=MaxHp-(MaxHp-9)*4/5;
     if(mousePressed){
     enemyX=0;
     gameState=GAME_PLAYING;
