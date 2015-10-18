@@ -45,7 +45,7 @@ void draw(){
     image(start1,0,0);
     if(mousePressed){
     gameState=GAME_PLAYING;
-    hp=(MaxHp-9)/5
+    hp=hp-(MaxHp-9)*4/5
     }
     }
   break;
