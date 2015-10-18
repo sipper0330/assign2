@@ -182,13 +182,12 @@ void draw(){
     image(end1,0,0);
     if(mousePressed){
     gameState=GAME_PLAYING;
-    hp=MaxHp;
+    hp=hp-(MaxHp-9)*4/5;
     treasureX=floor(random(10,600));
     treasureY=floor(random(10,308));
     fighterX=640-fighterW;
     fighterY=480/2;
-    hp=hp-(MaxHp-9)*4/5;
-  }
+    }
   break;
     }
   }
