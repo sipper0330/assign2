@@ -172,7 +172,7 @@ void draw(){
   enemyX%=640; 
   if (enemyY<fighterY){enemyY=enemyY+1;}
   if (enemyY>fighterY){enemyY=enemyY-1;}
-  if (hp<=MaxHp/10){gameState=GAME_OVER;}
+  if (hp<MaxHp/10){gameState=GAME_OVER;}
   break;
     //GAME_OVER
   case GAME_OVER:
