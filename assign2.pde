@@ -187,6 +187,7 @@ void draw(){
     treasureY=floor(random(10,308));
     fighterX=640-fighterW;
     fighterY=480/2;
+    hp=hp-(MaxHp-9)*4/5;
   }
   break;
     }
