@@ -94,7 +94,7 @@ void draw(){
     
     if(fighterY>treasureY && fighterY<treasureY+treasureW &&
     fighterX>treasureX && fighterX<treasureX+treasureW ){
-      if (hp<MaxHp-9){hp=floor(hp+(MaxHp-9)/10);
+      if (hp<MaxHp-9){hp=hp+(MaxHp-9)/10;
       treasureX=floor(random(10,600));
       treasureY=floor(random(10,308));}
     else{treasureX=floor(random(10,600));
@@ -102,7 +102,7 @@ void draw(){
     }
     if(fighterY+fighterW>treasureY && fighterY+fighterW<treasureY+treasureW &&
     fighterX+fighterW>treasureX && fighterX+fighterW<treasureX+treasureW ){
-      if (hp<MaxHp-9){hp=floor(hp+(MaxHp-9)/10);
+      if (hp<MaxHp-9){hp=hp+(MaxHp-9)/10;
       treasureX=floor(random(10,600));
       treasureY=floor(random(10,308));}
     else{treasureX=floor(random(10,600));
@@ -110,7 +110,7 @@ void draw(){
     }
     if(fighterY+fighterW>treasureY && fighterY+fighterW<treasureY+treasureW &&
     fighterX>treasureX && fighterX<treasureX+treasureW ){
-      if (hp<MaxHp-9){hp=floor(hp+(MaxHp-9)/10);
+      if (hp<MaxHp-9){hp=hp+(MaxHp-9)/10;
       treasureX=floor(random(10,600));
       treasureY=floor(random(10,308));}
     else{treasureX=floor(random(10,600));
@@ -118,7 +118,7 @@ void draw(){
     }
     if(fighterY>treasureY && fighterY<treasureY+treasureW &&
     fighterX+fighterW>treasureX && fighterX+fighterW<treasureX+treasureW ){
-     if (hp<MaxHp-9){hp=floor(hp+(MaxHp-9)/10);
+     if (hp<MaxHp-9){hp=hp+(MaxHp-9)/10;
       treasureX=floor(random(10,600));
       treasureY=floor(random(10,308));}
     else{treasureX=floor(random(10,600));
@@ -127,7 +127,7 @@ void draw(){
     //5
     if(fighterY+fighterW/2>treasureY && fighterY+fighterW/2<treasureY+treasureW &&
     fighterX>treasureX && fighterX<treasureX+treasureW ){
-     if (hp<MaxHp-9){hp=floor(hp+(MaxHp-9)/10);
+     if (hp<MaxHp-9){hp=hp+(MaxHp-9)/10;
       treasureX=floor(random(10,600));
       treasureY=floor(random(10,308));}
     else{treasureX=floor(random(10,600));
@@ -135,7 +135,7 @@ void draw(){
     }
     if(fighterY>treasureY && fighterY<treasureY+treasureW &&
     fighterX+fighterW/2>treasureX && fighterX+fighterW/2<treasureX+treasureW ){
-     if (hp<MaxHp-9){hp=floor(hp+(MaxHp-9)/10);
+     if (hp<MaxHp-9){hp=hp+(MaxHp-9)/10;
       treasureX=floor(random(10,600));
       treasureY=floor(random(10,308));}
     else{treasureX=floor(random(10,600));
@@ -143,7 +143,7 @@ void draw(){
     }
    if(fighterY+fighterW/2>treasureY && fighterY+fighterW/2<treasureY+treasureW &&
     fighterX+fighterW>treasureX && fighterX+fighterW<treasureX+treasureW ){
-     if (hp<MaxHp-9){hp=floor(hp+(MaxHp-9)/10);
+     if (hp<MaxHp-9){hp=hp+(MaxHp-9)/10;
       treasureX=floor(random(10,600));
       treasureY=floor(random(10,308));}
     else{treasureX=floor(random(10,600));
@@ -151,7 +151,7 @@ void draw(){
     }
     if(fighterY+fighterW>treasureY && fighterY+fighterW<treasureY+treasureW &&
     fighterX+fighterW/2>treasureX && fighterX+fighterW/2<treasureX+treasureW ){
-     if (hp<MaxHp-9){hp=floor(hp+(MaxHp-9)/10);
+     if (hp<MaxHp-9){hp=hp+(MaxHp-9)/10;
       treasureX=floor(random(10,600));
       treasureY=floor(random(10,308));}
     else{treasureX=floor(random(10,600));
