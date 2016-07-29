@@ -3,6 +3,7 @@ final int GAME_PLAYING=1;
 final int GAME_OVER=2;
 int gameState;
 
+
 PImage resA,resB,star,life,start1,start2,bg1,bg2,end1,end2;
 int bg2X,bg1X,enemyX,enemyY,treasureX,treasureY;
 
